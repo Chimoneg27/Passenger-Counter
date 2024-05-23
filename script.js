@@ -1,6 +1,8 @@
-let count = 0
+let count = 0;
+let countEl = document.getElementById("count-el");
 
 const increment = () => {
-  count += 1
-  console.log(count)
+  count = count + 1;
+  countEl.innerText = count;
+  console.log(count);
 }
